@@ -483,5 +483,5 @@ process.on('uncaughtException', function (Error) {
     return
 });
 
-Client.login(require('apikey.js'))
-console.log("[info] Logging in!")
+Client.login(process.env.token);
+console.log("[info] Logging in!");
