@@ -1,0 +1,21 @@
+{
+  "name": "eve-bot-app",
+  "version": "1.0.0",
+  "description": "Just a bot app called EVE",
+  "main": "app.js",
+  "dependencies": {
+    "circular-json": "^0.5.4",
+    "discord": "^0.8.2",
+    "discord.js": "^11.3.2",
+    "forever": "^0.15.3",
+    "jsonfile": "^4.0.0",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon app",
+    "start": "node app.js"
+  },
+  "author": "Fractalll",
+  "license": "ISC"
+}
