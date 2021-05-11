@@ -483,5 +483,5 @@ process.on('uncaughtException', function (Error) {
     return
 });
 
-Client.login(process.env.token);
+Client.login(process.env.DISCORDTOKEN);
 console.log("[info] Logging in!");
